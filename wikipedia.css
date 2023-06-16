@@ -1,0 +1,78 @@
+/* ul,
+nav {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+   */
+   
+.nav-class {
+  display: flex;
+ 
+  gap: 10px;
+  float: right;
+}
+
+.header-class {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.article-class {
+  width: 100%;
+  background: #e2d9d9
+
+  
+}
+.section-class {
+  background: #959595;
+}
+
+.footer-class {
+  background: lightgray;
+  font-size: 60%;
+}
+.image {
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin-left: 10px;
+}
+.image2 {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 10px;
+}
+.wiki {
+  width: 40px;
+  height: 40px;
+}
+.bar  {
+  position:fixed;
+  top: 0;
+  right: 0;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  
+ }
+
+.sup {
+  font-size: 24px;
+}
+.sub {
+  font-size:larger;
+}
+
